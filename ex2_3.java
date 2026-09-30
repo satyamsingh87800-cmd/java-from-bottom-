@@ -9,7 +9,7 @@ public class ex2_3 {
         int system = 55;
 
         boolean is = user > system;
-        System.out.println(is);
+        System.out.println(  "The number is grater than available number"+ is);
 
         sc.close();
 
