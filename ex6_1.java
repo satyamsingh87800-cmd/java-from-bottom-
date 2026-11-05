@@ -1,13 +1,14 @@
+// create a float array and print the sum of the array.
 public class ex6_1 {
     public static void main(String[] args) {
-        float ar [] = {12f,1f,78f,8f};
-        float sum = 0f;
-        for(int i =0;i<ar.length;i++){
-            sum += ar[i];
-            System.out.println(ar[i]);
-
+        float[] marks = {12,15,74,67};
+        int sum = 0;
+        for(int i=0 ; i<marks.length; i++){
+            sum +=marks[i];
         }
-        System.out.println(sum);
+    
+            System.out.println(sum);
+    
+        
     }
-
 }
